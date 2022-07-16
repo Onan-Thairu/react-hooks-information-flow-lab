@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Header({modeClick, mode }) {
+function Header({onDarkModeClick, mode }) {
     return (
         <header>
             <h2>Shopster</h2>
-            <button onClick={modeClick}>{ mode } Mode</button>
+            <button onClick={onDarkModeClick}>{ mode } Mode</button>
         </header>
     )
 }
